@@ -34,6 +34,7 @@ glEnableClientState(GL_VERTEX_ARRAY)
 # A 2D vertex has two components: x and y.
 glVertexPointer(2, GL_FLOAT, 0, backgroundVerticesGL)
 
+# Create the texture coordinate arrays
 backgroundTextureCoordinates = [
 	0, 1,
 	1, 1,
