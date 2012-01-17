@@ -31,6 +31,7 @@ backgroundVertices = [
 	0, window.height]
 backgroundVerticesGL = (GLfloat * len(backgroundVertices))(*backgroundVertices)
 glEnableClientState(GL_VERTEX_ARRAY)
+# A 2D vertex has two components: x and y.
 glVertexPointer(2, GL_FLOAT, 0, backgroundVerticesGL)
 
 backgroundTextureCoordinates = [
@@ -40,6 +41,7 @@ backgroundTextureCoordinates = [
 	0, 0]
 backgroundTextureCoordinatesGL = (GLfloat * len(backgroundTextureCoordinates))(*backgroundTextureCoordinates)
 glEnableClientState(GL_TEXTURE_COORD_ARRAY)
+# A texture coordinate has two components: u and v.
 glTexCoordPointer(2, GL_FLOAT, 0, backgroundTextureCoordinatesGL)
 
 @window.event
