@@ -5,6 +5,8 @@ This repository contains a collection of OpenGL examples that use pyglet. The fo
 1. PygletOpenGLIntro creates an OpenGL context and draws a rectangle.
 2. PygletTextureLoadImmediate loads an image as a texture and draws the texture on the screen.
 3. PygletLoopAudio builds upon the texture loading example by looping background music.
+4. PygletTextureLoadVertexArrays draws a texture on the screen using vertex arrays.
+5. PygletTextureLoadVBO draws a texture using vertex buffer objects (VBOs).
 
 Each example in this repository is a single file. Placing these examples in one repository made more sense than creating a repository for each example.
 
