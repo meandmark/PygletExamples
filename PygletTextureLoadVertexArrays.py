@@ -1,4 +1,4 @@
-# PygletTextureLoadImmediate.py
+# PygletTextureLoadVertexArrays.py
 # By Mark Szymczyk
 
 # This example loads a texture and draws it on the screen.
