@@ -33,10 +33,10 @@ backgroundVertices = [
 backgroundVerticesGL = (GLfloat * len(backgroundVertices))(*backgroundVertices)
 
 backgroundTextureCoordinates = [
-	0, 1,
-	1, 1,
+	0, 0,
 	1, 0,
-	0, 0]
+	1, 1,
+	0, 1]
 backgroundTextureCoordinatesGL = (GLfloat * len(backgroundTextureCoordinates))(*backgroundTextureCoordinates)
 
 # Set up the VBO
