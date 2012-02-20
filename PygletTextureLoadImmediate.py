@@ -34,19 +34,19 @@ def draw_background():
 	glBegin(GL_QUADS)
     
 	# Lower left corner
-	glTexCoord2f(0.0, 1.0)
+	glTexCoord2f(0.0, 0.0)
 	glVertex3f(0.0, 0.0, 0.0)
     
 	# Lower right corner
-	glTexCoord2f(1.0, 1.0)
+	glTexCoord2f(1.0, 0.0)
 	glVertex3f(window.width, 0.0, 0.0)
     
 	# Upper right corner
-	glTexCoord2f(1.0, 0.0)
+	glTexCoord2f(1.0, 1.0)
 	glVertex3f(window.width, window.height, 0.0)
     
 	# Upper left corner
-	glTexCoord2f(0.0, 0.0)
+	glTexCoord2f(0.0, 1.0)
 	glVertex3f(0.0, window.height, 0.0)
     
 	glEnd()
