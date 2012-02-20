@@ -36,10 +36,10 @@ glVertexPointer(2, GL_FLOAT, 0, backgroundVerticesGL)
 
 # Create the texture coordinate arrays
 backgroundTextureCoordinates = [
-	0, 1,
-	1, 1,
+	0, 0,
 	1, 0,
-	0, 0]
+	1, 1,
+	0, 1]
 backgroundTextureCoordinatesGL = (GLfloat * len(backgroundTextureCoordinates))(*backgroundTextureCoordinates)
 glEnableClientState(GL_TEXTURE_COORD_ARRAY)
 # A texture coordinate has two components: u and v.
